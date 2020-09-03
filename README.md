@@ -102,7 +102,6 @@
 </div>
 <hr>
 <hr>
-<a href ="https://www.jenelledowner17.github.io" target=_"blank"> jenelledowner17.github.io</a>
 </body>
 </html>
 
