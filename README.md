@@ -94,12 +94,12 @@
 </form>
 <hr>
 <div class="project-menu">
-	<a href="#"class="active"> My Projects: </a>
+	<a href="#"class="active">My Projects: </a>
 	<a href="https://rkileaders.teachable.com/courses/764038/lectures/13897368" target="_blank"> Project 1</a>
 	<a href="#"> Project 2</a>
 	<a href="#"> Project 3</a>
 	<a href="#"> Project 4</a>
-<div>
+</div>
 </body>
 </html>
 # jenelledowner17.github.io
