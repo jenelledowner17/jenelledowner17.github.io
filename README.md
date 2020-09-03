@@ -4,7 +4,8 @@
 	<img src="MP1_img1.jpg" width="25%">
 <hr>
 	<h2>Jenelle Downer</h2>
-	<h3>Major: Computer Science Concentration: Business</h3>
+	<h3>Major: Computer Science</h3> 
+	<h3>Concentration: Business</h3>
 <hr>
  	<h3>Education</h3>
 	<p>St.Edmund Preparatory, Brooklyn, NY </p>
@@ -93,7 +94,7 @@
 </form>
 <hr>
 <div class="project-menu">
-	<a href="#"class="active"> My Projects:</a>
+	<a href="#"class="active"> My Projects: </a>
 	<a href="https://rkileaders.teachable.com/courses/764038/lectures/13897368" target="_blank"> Project 1</a>
 	<a href="#"> Project 2</a>
 	<a href="#"> Project 3</a>
