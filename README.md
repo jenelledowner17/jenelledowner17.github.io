@@ -85,9 +85,9 @@
 <h3>Favorite Websites</h3>
  <form>
 <span>
-<p> <a href ="http://www.disneyplus.com> Disney Plus</a>: This website is one of my favorites becasue it has a collection of new and old films and television shows by Disney.It bring me back to my childhood each time I visit the site. If you want to go down memory lane as well be sure to click the link.</p>
+ <a href ="http://www.disneyplus.com> Disney Plus</a>: <p>This website is one of my favorites becasue it has a collection of new and old films and television shows by Disney.It bring me back to my childhood each time I visit the site. If you want to go down memory lane as well be sure to click the link.</p>
 <hr>
-<p> <a href ="http://www.comedycentral.com> Comedy Central</a>: I like to visit this website when I am feeling a bit down and need to laugh for a bit. Since stand up comdey is one of my favorite things to watch, it also introduces me to new comics. If you are looking for a laugh about the issues we are facing today I suggest watching the Socially Distance Show with Trevor Noah.</p>
+<a href ="http://www.comedycentral.com> Comedy Central</a>: <p>I like to visit this website when I am feeling a bit down and need to laugh for a bit. Since stand up comdey is one of my favorite things to watch, it also introduces me to new comics. If you are looking for a laugh about the issues we are facing today I suggest watching the Socially Distance Show with Trevor Noah.</p>
 
 </span>
 </form>
