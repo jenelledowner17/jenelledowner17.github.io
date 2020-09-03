@@ -58,7 +58,6 @@
 	<td> The CW's The Flash</td>
 	</tr>
 	<td> <div id="video_anchor">
-	<video width="130"controls>
 	<source src="vid4.mp4" type="video/mp4">
 	Can't play vide
 </video>
