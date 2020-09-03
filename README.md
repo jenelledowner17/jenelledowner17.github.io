@@ -100,6 +100,9 @@
 	<a href="#"> Project 3</a>
 	<a href="#"> Project 4</a>
 </div>
+<hr>
+<hr>
+<a href ="https://www.jenelledowner17.github.io" target=_"blank"> jenelledowner17.github.io</a>
 </body>
 </html>
-<a href ="https://jenelledowner17.github.io" target=_"blank"> jenelledowner17.github.io</a>
+
