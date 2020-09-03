@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title> Jenelle Downer's Profile</title>
+
 </head>
 <body>
 	<img src="MP1_img1.jpg" width="25%">
@@ -58,6 +58,7 @@
 	<td> The CW's The Flash</td>
 	</tr>
 	<td> <div id="video_anchor">
+	<video width="130" controls>
 	<source src="vid4.mp4" type="video/mp4">
 	Can't play vide
 </video>
