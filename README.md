@@ -4,7 +4,7 @@
 	<img src="MP1_img1.jpg" width="25%">
 <hr>
 	<h2>Jenelle Downer</h2>
-	<h3>Major: Computer Science</h3> 
+	<h3>Major: Computer Science</h3>
 	<h3>Concentration: Business</h3>
 <hr>
  	<h3>Education</h3>
@@ -87,8 +87,8 @@
  <form>
 <span>
 <ol>
- <li><a href ="http://www.disneyplus.com" target="_blank"> Disney Plus</a>: <p>This website is one of my favorites becasue it has a collection of new and old films and television shows by Disney.It bring me back to my childhood each time I visit the site. If you want to go down memory lane as well be sure to click the link.</p></li>
-<li><a href ="http://www.comedycentral.com" target="_blank"> Comedy Central</a>: <p>I like to visit this website when I am feeling a bit down and need to laugh for a bit. Since stand up comdey is one of my favorite things to watch, it also introduces me to new comics. If you are looking for a laugh about the issues we are facing today I suggest watching the Socially Distance Show with Trevor Noah.</p></li>
+ <li><a href ="http://www.disneyplus.com" target="_blank"> Disney Plus</a>: <p>This website is one of my favorites becasue it has a collection of new and old films and television shows by Disney. It brings me back to my childhood each time I visit the site. If you want to go down memory lane as well be sure to click the link.</p></li>
+<li><a href ="http://www.comedycentral.com" target="_blank"> Comedy Central</a>: <p>I like to visit this website when I am feeling a bit down and need to laugh for a bit. Since stand up comedy is one of my favorite things to watch, it also introduces me to new comics. If you are looking for a laugh about the issues we are facing today I suggest watching the Socially Distance Show with Trevor Noah.</p></li>
 </ol>
 </span>
 </form>
@@ -104,4 +104,3 @@
 <hr>
 </body>
 </html>
-
