@@ -1,4 +1,4 @@
-<!DOCTYPER html>
+<!DOCTYPE html>
 <html>
 <head>
 <title> Jenelle Downer's Profile</title>
@@ -62,14 +62,14 @@
 	Can't play video
 </video>
 <td>                           </td>
-</div>	
+</div>
 </td>
 <td> <div id="video_anchor">
 	<video width="200" controls>
 	<source src="vid2.mp4" type="video/mp4">
 	Can't play video
 </video>
-</div>	
+</div>
 </td>
 <td>                           </td>
 <td>                           </td>
@@ -78,19 +78,19 @@
 	<source src="vid3.mp4" type="video/mp4">
 	Can't play video
 </video>
-</div>	
+</div>
 </td>
 
 
 	</table>
 <hr>
-	
+
 <h3>Favorite Websites</h3>
  <form>
 <div>
 
 </div>
 </form>
-	
+
 </body>
 </html>
