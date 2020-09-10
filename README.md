@@ -1,4 +1,4 @@
-
+<DOCTYPE html>
 <html>
 <body>
 	<img src="MP1_img1.jpg" width="25%">
