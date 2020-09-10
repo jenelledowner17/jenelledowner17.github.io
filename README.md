@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
 <body>
+
 	<img src="MP1_img1.jpg" width="25%">
+	<h1> About Me</h1>
+	<nav>
+		<ul>
+				<li><a href ="Education"> Education</a></li>
+				<li><a href =<"Work Experience"> Work Experience</a></li>
+				<li><a href =<"Programming Skills"> Programming Experience</a></li>
+				<li><a href=<"General Interests"> My Interests</a></li>
+				<li><a href=<"Favorite Media"> Favorite Media</a></li>
+				<li><a href =<"Favorite Websites"> My Go-To Site </a></li>
+				<li><a href =<"My Projects"> My Projects</a></li>
+		</ul>
+	</nav>
 <hr>
 	<h2>Jenelle Downer</h2>
 	<h3>Major: Computer Science</h3>
