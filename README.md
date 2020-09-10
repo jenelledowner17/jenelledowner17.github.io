@@ -5,13 +5,13 @@
 	<h1> About Me</h1>
 	<nav>
 		<ul>
-				<li><a name="Education"> Education</a></li>
-				<li><a name="Work Experience"> Work Experience</a></li>
-				<li><a name ="Programming Skills"> Programming Experience</a></li>
-				<li><a name ="General Interests"> My Interests</a></li>
-				<li><a name	="Favorite Media"> Favorite Media</a></li>
-				<li><a name="Favorite Websites"> My Go-To Site </a></li>
-				<li><a name="My Projects"> My Projects</a></li>
+				<li><a id="Education"> Education</a></li>
+				<li><a id="Work Experience"> Work Experience</a></li>
+				<li><a id="Programming Skills"> Programming Experience</a></li>
+				<li><a id ="General Interests"> My Interests</a></li>
+				<li><a id	="Favorite Media"> Favorite Media</a></li>
+				<li><a id="Favorite Websites"> My Go-To Site </a></li>
+				<li><a id="My Projects"> My Projects</a></li>
 		</ul>
 	</nav>
 <hr>
