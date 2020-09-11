@@ -58,7 +58,7 @@
 <hr>
 
 	<h3>Favorite Media</h3>
-	<table>
+<table>
 	<tr>
 	<th>Favorite Song</th>
 	<th>Favorite Film</th>
@@ -89,9 +89,8 @@
 </video>
 </div>
 </td>
+</table>
 
-
-	</table>
 <hr>
 <hr>
 <h3>Favorite Websites</h3>
