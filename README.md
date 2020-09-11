@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 <title> Jenelle Downer's Profile Page</title>
@@ -8,7 +8,7 @@
 <body>
 <h2 style ="color:#c70039;text-align:center;font-size:40px">Jenelle Downer</h2>
 	<img src="MP1_img1.jpg" width="25%">
-	<h1 style ="color:#c70039; font-family: "Arial";">About Me &#128512</h1>
+	<h1 style ="color:#c70039; font-family: "Arial";>About Me &#128512</h1>
 
 	<div id="red-background" class="centertable">
 	<table>
@@ -104,7 +104,7 @@
 </span>
 </form>
 <hr>
-<div id="red-background">
+<div id="red-background" class="centertable">
 	<a href="#">My Projects: </a>
 	<a href="https://rkileaders.teachable.com/courses/764038/lectures/13897368" target="_blank"> Project 1</a>
 	<a href="#"> Project 2</a>
