@@ -1,7 +1,6 @@
 
 <html>
 <head>
-<title> Jenelle Downer's Profile Page</title>
 	
 <link rel="stylesheet" href="stylesheet.css"/>
 
@@ -9,7 +8,7 @@
 </head>
 
 <body>
-<style>
+
 <h2 style ="color:#c70039;text-align:center;font-size:40px">Jenelle Downer</h2>
 	<img src="MP1_img1.jpg" width="25%">
 	<h1 style ="color:#c70039">About Me &#128512</h1>
@@ -116,6 +115,5 @@
 </div>
 <hr>
 <hr>
-</style>
 </body>
 </html>
