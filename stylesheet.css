@@ -1,0 +1,56 @@
+#red-background{
+background-color:#eac3bb
+}
+.centertable
+{
+text-align:center;
+}
+
+body{
+background-color:#fbd2ca;
+}
+
+img{
+display:block;
+margin: auto;
+border-style: solid;
+border-color:#94584b;
+border-width: medium;
+}
+
+h3{
+color:#c70039;
+text-align:center;
+font-family:"Comic Sans MS"
+}
+
+p{
+color:#a16153;
+font-family:"Comic Sans MS"
+}
+
+ul{
+color:#a16153;
+font-family:"Comic Sans MS"
+}
+
+
+ol{
+color:#a16153;
+font-family:"Comic Sans MS"
+}
+
+hr{
+border-style: inset
+}
+
+table,th,tr
+{
+border-style:dotted;
+border-color:#94584b;
+}
+@media(max-width:130px){
+body{
+background-color:white;
+}
+}
