@@ -1,5 +1,4 @@
 
-<!DOCTYPE html>
 <html>
 <head>
 <title> Jenelle Downer's Profile Page</title>
@@ -105,7 +104,7 @@
 </span>
 </form>
 <hr>
-<div id="red-background">
+<div id="red-background" class="centertable">
 	<a href="#">My Projects: </a>
 	<a href="https://rkileaders.teachable.com/courses/764038/lectures/13897368" target="_blank"> Project 1</a>
 	<a href="#"> Project 2</a>
