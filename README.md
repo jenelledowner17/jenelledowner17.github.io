@@ -1,34 +1,43 @@
+<!DOCTYPE html>
 <html>
+<head>
+<title> Jenelle Downer's Profile Page</title>
+<link rel="stylesheet" href="stylesheet.css"/>
+<meta charset="UTF-8">
+</head>
 <body>
-
+<h2 style ="color:#c70039;text-align:center;font-size:40px">Jenelle Downer</h2>
 	<img src="MP1_img1.jpg" width="25%">
-	<h1> About Me</h1>
-	<nav>
-		<ul>
-				<li><a href="Education"> Education</a></li>
-				<li><a href="Work Experience"> Work Experience</a></li>
-				<li><a href="Programming Skills"> Programming Experience</a></li>
-				<li><a href="General Interests"> My Interests</a></li>
-				<li><a href="Favorite Media"> Favorite Media</a></li>
-				<li><a href="Favorite Websites"> My Go-To Site </a></li>
-				<li><a href="My Projects"> My Projects</a></li>
-		</ul>
-	</nav>
+	<h1 style ="color:#c70039; font-family: "Arial";">About Me &#128512</h1>
+
+	<div id="red-background" class="centertable">
+	<table>
+		<tr>
+		<th><a href="#education">Education </a></th>
+		<th><a href="#work">Work Experience </a></th>
+		<th><a href="#programming">Programming Experience </a></th>
+		<th><a href="#general">My Interests </a></th>
+		<th><a href="#media">Favorite Media </a></th>
+		<th><a href="#websites">My Go-To Site </a></th>
+		<th><a href="#projects">My Projects </a></th>
+		</tr>
+	</table>
+	</div>
 <hr>
-	<h2>Jenelle Downer</h2>
+
 	<h3>Major: Computer Science</h3>
 	<h3>Concentration: Business</h3>
 <hr>
- 	<h3>Education</h3>
-	<p>St.Edmund Preparatory, Brooklyn, NY </p>
+ 	<h3 >Education</h3>
+	<p>St .Edmund Preparatory, Brooklyn, NY </p>
 	<p> Graduated: 2017</p>
-	<p> St.John's University, Jamaica, NY</p>
+	<p> St. John's University, Jamaica, NY</p>
 	<p> Projected to Graduate: 2021</p>
 <hr>
 	<h3>Work Experience</h3>
-	<ul>
-	<li>Knickerbocker Foundation......Tennis Instructor</li>
-	</ul>
+
+	<p>Knickerbocker Foundation......Tennis Instructor</p>
+
 <hr>
 	<h3>Programming Skills</h3>
 	<ul>
@@ -52,18 +61,12 @@
 	<table>
 	<tr>
 	<th>Favorite Song</th>
-	<th>                           </th>
 	<th>Favorite Film</th>
-	<th>                           </th >
-	<th>                           </th >
 	<th>Favorite Tv Show</th>
 	</tr>
 <tr>
 	<td>Maverick City Music "Promises"</td>
-	<td>                           </td>
 	<td> Marvel's The Black Panther</td>
- 	<td>                           </td>
-	<td>                           </td>
 	<td> The CW's The Flash</td>
 	</tr>
 	<td> <div id="video_anchor">
@@ -71,18 +74,14 @@
 	<source src="vid4.mp4" type="video/mp4">
 	Can't play video
 </video>
-<td>                           </td>
-</div>
-</td>
+
+
 <td> <div id="video_anchor">
 	<video width="200" controls>
 	<source src="vid2.mp4" type="video/mp4">
 	Can't play video
 </video>
 </div>
-</td>
-<td>                           </td>
-<td>                           </td>
 <td> <div id="video_anchor">
 	<video width="200" controls>
 	<source src="vid3.mp4" type="video/mp4">
@@ -99,13 +98,13 @@
  <form>
 <span>
 <ol>
- <li><a href ="http://www.disneyplus.com" target="_blank"> Disney Plus</a>: <p>This website is one of my favorites becasue it has a collection of new and old films and television shows by Disney. It brings me back to my childhood each time I visit the site. If you want to go down memory lane as well be sure to click the link.</p></li>
+ <li><a href ="http://www.disneyplus.com" target="_blank"> Disney Plus</a>: <p>This website is one of my favorites because it has a collection of new and old films and television shows by Disney. It brings me back to my childhood each time I visit the site. If you want to go down memory lane be sure to click the link.</p></li>
 <li><a href ="http://www.comedycentral.com" target="_blank"> Comedy Central</a>: <p>I like to visit this website when I am feeling a bit down and need to laugh for a bit. Since stand up comedy is one of my favorite things to watch, it also introduces me to new comics. If you are looking for a laugh about the issues we are facing today I suggest watching the Socially Distance Show with Trevor Noah.</p></li>
 </ol>
 </span>
 </form>
 <hr>
-<div class="project-menu">
+<div id="red-background">
 	<a href="#">My Projects: </a>
 	<a href="https://rkileaders.teachable.com/courses/764038/lectures/13897368" target="_blank"> Project 1</a>
 	<a href="#"> Project 2</a>
@@ -114,5 +113,6 @@
 </div>
 <hr>
 <hr>
+</style>
 </body>
 </html>
