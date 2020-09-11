@@ -8,7 +8,7 @@
 <body>
 <h2 style ="color:#c70039;text-align:center;font-size:40px">Jenelle Downer</h2>
 	<img src="MP1_img1.jpg" width="25%">
-	<h1 style ="color:#c70039; text-align="centertable";>About Me &#128512;</h1>
+	<h1 style ="color:#c70039; text-align="center";>About Me &#128512;</h1>
 
 	<div id="red-background" class="centertable">
 	<table>
