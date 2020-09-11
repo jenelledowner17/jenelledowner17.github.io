@@ -8,18 +8,18 @@
 <body>
 <h2 style ="color:#c70039;text-align:center;font-size:40px">Jenelle Downer</h2>
 	<img src="MP1_img1.jpg" width="25%">
-	<h1 style ="color:#c70039; font-family: "Arial";">About Me &#128512</h1>
+	<h1 style ="color:#c70039;">About Me &#128512</h1>
 
 	<div id="red-background" class="centertable">
 	<table>
 		<tr>
 		<th><a href="#education">Education </a></th>
-		<th><a href="#work">Work Experience </a></th>
-		<th><a href="#programming">Programming Experience </a></th>
-		<th><a href="#general">My Interests </a></th>
-		<th><a href="#media">Favorite Media </a></th>
-		<th><a href="#websites">My Go-To Site </a></th>
-		<th><a href="#projects">My Projects </a></th>
+		<th><a href="#workexperience">Work Experience </a></th>
+		<th><a href="#programmingexperience">Programming Experience </a></th>
+		<th><a href="#generalinterests">My Interests </a></th>
+		<th><a href="#favoritemedia">Favorite Media </a></th>
+		<th><a href="#favoritewebsites">My Go-To Site </a></th>
+		<th><a href="#myprojects">My Projects </a></th>
 		</tr>
 	</table>
 	</div>
@@ -56,7 +56,7 @@
 	</ol>
 <hr>
 <hr>
-
+<div>
 	<h3>Favorite Media</h3>
 	<table>
 	<tr>
@@ -89,9 +89,8 @@
 </video>
 </div>
 </td>
-
-
-	</table>
+</table>
+</div>
 <hr>
 <hr>
 <h3>Favorite Websites</h3>
@@ -113,6 +112,7 @@
 </div>
 <hr>
 <hr>
+
 </style>
 </body>
 </html>
