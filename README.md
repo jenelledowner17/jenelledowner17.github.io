@@ -56,9 +56,9 @@
 	</ol>
 <hr>
 <hr>
-<div>
+
 	<h3>Favorite Media</h3>
-	<table>
+<table>
 	<tr>
 	<th>Favorite Song</th>
 	<th>Favorite Film</th>
@@ -74,6 +74,7 @@
 	<source src="vid4.mp4" type="video/mp4">
 	Can't play video
 </video>
+</div>
 
 
 <td> <div id="video_anchor">
@@ -90,7 +91,6 @@
 </div>
 </td>
 </table>
-</div>
 <hr>
 <hr>
 <h3>Favorite Websites</h3>
