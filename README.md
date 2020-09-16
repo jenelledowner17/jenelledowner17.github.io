@@ -14,8 +14,8 @@
 	<table>
 		<tr>
 		<th><a href="#education">Education </a></th>
-		<th><a href="#workexperience">Work Experience </a></th>
-		<th><a href="#programmingexperience">Programming Experience </a></th>
+		<th><a href="#"workexperience">Work Experience </a></th>
+		<th><a href="#" programmingexperience">Programming Experience </a></th>
 		<th><a href="#generalinterests">My Interests </a></th>
 		<th><a href="#favoritemedia">Favorite Media </a></th>
 		<th><a href="#favoritewebsites">My Go-To Site </a></th>
