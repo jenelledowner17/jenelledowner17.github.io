@@ -1,10 +1,17 @@
-body{
-  margin: 0;
-  min-width: 250px;
+
+body {
+  background-color: #FF339C;
+  display: flex;
+  justify-content: center;
 }
+h2 {
+  margin-bottom: 40px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
 ul li{
   position: relative;
-  background: #FF339C;
   font-size: 17 px;
   transition: 0.1s;
 }

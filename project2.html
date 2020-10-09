@@ -1,48 +1,119 @@
 <!DOCTYPE html>
-  <html>
-  <head>
-<link rel="project2" href="project2.css"/>
+<html>
+<head>
+  <title>Task List</title>
 <script>
-
   document.addEventListener('DOMContentLoader', function(){
+let addButton = document.querySelector("#add");
+let addInput = document.querySelector("#item");
 
-    document.querySelector("#newtask").onsubmit =function(){
-      const li = document.createElement('li');
+addButton.addEventListener("click",function(){
 
-      let task_text = document.querySelector('#inputin').value;
-       let new_task_html = `
-        <span> ${task_text}</span>
-        <button class= "remove"> Remove</button>
-       `;
-       li.innerHTML =new_task_html
+  let  newItem = document.getElementById("item").value;
+
+  if(newItem) {
+     addItemTodo(newItem);
+     document.getElementById("item").value = "";
+  }
+
+addInput.addEventListener("keypress",function(e){
+
+  if (13 === e.keyCode){
+
+    let newItem = document.getElementById("item").value;
+
+    if (newItem) {
+
+      addItemTodo(newItem);
+        document.getElementById("item").value = "";
+    }
+  }
+
+function addItemTodo(text){
+  `
+  let list = document.getElementById("todo");
+
+  let item = document.createElement('li');
+
+  item.innerText = text;
 
 
-      li.innerHTML = document.querySelector('#inputin').value;
-      document.querySelector("#tasklist").append(li);
-      document.querySelector("#inputin").value ='';
-      return false;
+  let buttons = document.createElement('div');
+  buttons.classList.add("buttons");
 
-      document.addEventListener('click', function(event){
-        element = event.target;
-        if(element.classname ==='remove')
-        {
-          element.parentElement.remove();
-        }
-      }
+
+
+let remove = document.createElement('button');
+  remove.classList.add('remove');
+
+  remove.innerHTML = removeSVG;
+
+
+  remove.addEventListener("click",removeItem);
+
+  let complete = document.createElement('button');
+  complete.classList.add('complete');
+
+  complete.innerHTML = completeSVG;
+
+  complete.addEventListener("click",completeItem);
+
+
+  buttons.appendChild(remove);
+
+buttons.appendChild(complete);
+
+
+  item.appendChild(buttons);
+
+
+  list.insertBefore(item,list.childNodes[0]);
+}
+
+function completeItem(){
+
+  let item = this.parentNode.parentNode;
+
+  let parent = item.parentNode;
+
+  let id = parent.id;
+
+   let target = (id === "todo") ? document.getElementById("completed") : document.getElementById("todo");
+
+  parent.removeChild(item);
+
+target.insertBefore(item,target.childNodes[0]);
+}
+
+
+function removeItem(){
+
+  let item = this.parentNode.parentNode;
+
+  let parent  = item.parentNode;
+  parent.removeChild(item);
+}
 
 });
-
 </script>
 </head>
-<body>
-  <title>Project 2 : To Do List</title>
-  <h2> My Task List</h2>
-    <ul id="tasklist">
-    </ul>
-    <form id="newtask">
-      <input type ="text" id ="inputin" placeholder="What are you doing today...">
-      <input id ="submit" type="submit">
 
-</form>
+
+<body>
+
+<input type="text" placeholder="Enter an activity..." id="item" />
+      <button id="add"></button>
+    
+    <h2>To Do</h2>
+    <ul class="todo" id="todo">
+<li>item1
+      <span class="buttons">
+      <button class="remove"></button>
+      <button class="complete"></button>
+</li>
+    </ul>
+    <h2>Completed</h2>
+    <ul class="completed" id="completed"></ul>
+
 </body>
-  </html>
+</html>
