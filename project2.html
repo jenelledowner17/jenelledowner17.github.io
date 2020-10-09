@@ -3,7 +3,15 @@
   <head>
 <link rel="project2" href="project2.css"/>
 <script>
-
+  var myNodelist = document.getElementsByTagName("LI");
+  var i;
+  for (i = 0; i < myNodelist.length; i++) {
+    var span = document.createElement("SPAN");
+    var txt = document.createTextNode("\u00D7");
+    span.className = "close";
+    span.appendChild(txt);
+    myNodelist[i].appendChild(span);
+  }
 
   var close = document.getElementsByClassName("close");
 var i;
@@ -27,7 +35,7 @@ for (i = 0; i < close.length; i++) {
     function newElement(){
       var li =
       document.createElement("li");
-        var inputValue= document.getElementbyId("input").value;
+        var inputValue= document.getElementbyId("inputin").value;
         var t = document.createText(inputValue);
           li.appendChild(t);
           if(inputValue === ''){
@@ -36,7 +44,7 @@ for (i = 0; i < close.length; i++) {
           else{
             document.getElementbyId("tasklist").appendChild(li);
           }
-          document.getElementById('input').value ="";
+          document.getElementById('inputin').value ="";
     }
 
 
@@ -62,8 +70,9 @@ for (i = 0; i < close.length; i++) {
     <ul id="tasklist">
     </ul>
     <form id="newtask">
-      <input type ="text" id ="input" placeholder="What are you doing today...">
+      <input type ="text" id ="inputin" placeholder="What are you doing today...">
       <span onclick = "newElement()" class= "submitbutton">Submit</span>
+      </div>
       <!--<input id=" task type="text" >-->
     <!--  <input id="submit" type="submit" >-->
 
