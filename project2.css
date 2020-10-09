@@ -20,7 +20,7 @@ ul li.complete{
   text-decoration: line-through;
 }
 
-.submitbutton{
+.submit{
   padding: 15px
   width:20%
   background: #7B4E75;

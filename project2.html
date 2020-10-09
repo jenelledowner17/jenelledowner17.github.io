@@ -3,9 +3,35 @@
   <head>
 <link rel="project2" href="project2.css"/>
 <script>
+
   document.addEventListener('DOMContentLoader', function(){
 
-    
+    document.querySelector("#newtask").onsubmit =function(){
+      const li = document.createElement('li');
+
+      let task_text = document.querySelector('#inputin').value;
+       let new_task_html = `
+        <span> ${task_text}</span>
+        <button class= "remove"> Remove</button>
+       `;
+       li.innerHTML =new_task_html
+
+
+      li.innerHTML = document.querySelector('#inputin').value;
+      document.querySelector("#tasklist").append(li);
+      document.querySelector("#inputin").value ='';
+      return false;
+
+      document.addEventListener('click', function(event)){
+        element = event.target;
+        if(element.classname ==='remove')
+        {
+          element.parentElement.remove();
+        }
+      }
+
+});
+
 </script>
 </head>
 <body>
