@@ -1,57 +1,47 @@
 <!DOCTYPE html>
   <html>
+  <head>
+<link rel="project2" href="project2.css"/>
+<script>
 
-    <head>
+    document.addEventListener('DOMContentLoader', function(){
 
-      <script>
+    document.querySelector("#newtask").onsubmit =function(){
+      const li = document.createElement('li');
 
-        document.addEventListener('DOMContentLoaded',function()
-
-        document.querySelector("#new-task).oncsubmit = function(){
-
-            const li = document.createElement('li');
-            let task_text = document.querySelector('#task').value;
-            let new_task_html = `
-            <span> ${task_text}</span>
-            <button class ="remove"> Remove </button>
-            `;
-            li.innerHTML= new_task_html
-            li.innerHTML = document.querySelector('#task').value;
-            document.querySelector{"#tasks_list"}. append{li};
-            document.querySelector("#task").value ='';
-            return false;
-        }
-
-        document.addEventListener('click',function{event})
-        element = event.target;
-        if (element.className ==='remove'){
+      let task_text = document.querySelector('#task').value;
+       let new_task_html = `
+        <span> ${task_text}</span>
+        <button class= "remove"> Remove</button>
+       `;
+       li.innerHTML =new_task_html
+       document.querySelector("#tasklist").append(li);
+       document.querySelector(#"task").value ='';
+       return false;
+    }
+    document.addEventListener('click', function(event){
+      element =event.target;
+      if(element.className === 'remove'){
           element.parentElement.remove();
-        }
+      }
+    }
 
-      })
 
-        });
+  )}
+</script>
 
-      </script>
-
-  </head>
-
-  <body>
-    <title>Project 2 :Tasks List </title>
-
-    <h2>Tasks</h2>
-
-    <ul id="tasks_list">
-
+<body>
+  <h2> My Task List</h2>
+  <div id="mylist" class= "header">
+    <ul id="tasklist">
     </ul>
+    <form id="newtask">
+      <input type ="text" id ="input" placeholder="What are you doing today...">
+      <span onclick = "newElement()" class= "submitbutton">Submit</span>
+      <!--<input id=" task type="text" >-->
+    <!--  <input id="submit" type="submit" >-->
 
-    <form id ="new-task">
-
-      <input id="task" autocomplete="off" autofocus placeholder= "New Task" type="text">
-
-      <input id= "submit" type="submit">
-    </form>
-
-  </body>
-
+      </form>
+</body>
+  </head>
   </html>

@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  min-width: 250px;
+}
+ul li{
+  position: relative;
+  background: #FF339C;
+  font-size: 17 px;
+  transition: 0.1s;
+}
+ul li : nth-child (odd){
+  background: #DBC8D9;
+}
+ul li hover{
+  background: #DEDEDE;
+}
+
+ul li.complete{
+  background: #7B4E75;
+  text-decoration: line-through;
+}
+
+.submitbutton{
+  padding: 15px
+  width:20%
+  background: #7B4E75;
+  text-align: center;
+  font-size: 15 px;
+  transition: 0.3s;
+}
