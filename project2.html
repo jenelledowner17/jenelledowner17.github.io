@@ -30,7 +30,7 @@ addInput.addEventListener("keypress",function(e){
   }
 
 function addItemTodo(text){
-  `
+
   let list = document.getElementById("todo");
 
   let item = document.createElement('li');
@@ -43,7 +43,7 @@ function addItemTodo(text){
 
 
 
-let remove = document.createElement('button');
+let remove = document.createElement('rb');
   remove.classList.add('remove');
 
   remove.innerHTML = removeSVG;
@@ -51,7 +51,7 @@ let remove = document.createElement('button');
 
   remove.addEventListener("click",removeItem);
 
-  let complete = document.createElement('button');
+  let complete = document.createElement('cb');
   complete.classList.add('complete');
 
   complete.innerHTML = completeSVG;
@@ -100,20 +100,20 @@ function removeItem(){
 
 
 <body>
-
+<div id="list">
 <input type="text" placeholder="Enter an activity..." id="item" />
       <button id="add"></button>
-    
+
     <h2>To Do</h2>
     <ul class="todo" id="todo">
 <li>item1
       <span class="buttons">
-      <button class="remove"></button>
-      <button class="complete"></button>
+      <button id ="rb"class="remove"> Remove </button>
+      <button id= "cb"class="complete">Complete</button>
 </li>
     </ul>
     <h2>Completed</h2>
     <ul class="completed" id="completed"></ul>
-
+</div>
 </body>
 </html>
