@@ -100,7 +100,7 @@ input {
 }
 
 
-.addBtn {
+.submitBtn {
   padding: 10px;
   width: 25%;
   background: #d9d9d9;
@@ -113,7 +113,7 @@ input {
   border-radius: 0;
 }
 
-.addBtn:hover {
+.submitBtn:hover {
   background-color: #bbb;
 }
 </style>
