@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+  <html>
+
+    <head>
+
+      <script>
+
+        document.addEventListener('DOMContentLoaded',function()
+
+        document.querySelector("#new-task).oncsubmit = function(){
+
+            const li = document.createElement('li');
+            let task_text = document.querySelector('#task').value;
+            let new_task_html = `
+            <span> ${task_text}</span>
+            <button class ="remove"> Remove </button>
+            `;
+            li.innerHTML= new_task_html
+            li.innerHTML = document.querySelector('#task').value;
+            document.querySelector{"#tasks_list"}. append{li};
+            document.querySelector("#task").value ='';
+            return false;
+        }
+        });
+
+      </script>
+
+  </head>
+
+  <body>
+    <title>Project 2 :Tasks List </title>
+
+    <h2>Tasks</h2>
+
+    <ul id="tasks_list">
+
+    </ul>
+
+    <form id ="new-task">
+
+      <input id="task" autocomplete="off" autofocus placeholder= "New Task" type="text">
+
+      <input id= "submit" type="submit">
+    </form>
+
+  </body>
+
+  </html>
