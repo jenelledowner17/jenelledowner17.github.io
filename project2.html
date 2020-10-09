@@ -3,80 +3,20 @@
   <head>
 <link rel="project2" href="project2.css"/>
 <script>
-  var myNodelist = document.getElementsByTagName("LI");
-  var i;
-  for (i = 0; i < myNodelist.length; i++) {
-    var span = document.createElement("SPAN");
-    var txt = document.createTextNode("\u00D7");
-    span.className = "close";
-    span.appendChild(txt);
-    myNodelist[i].appendChild(span);
-  }
+  document.addEventListener('DOMContentLoader', function(){
 
-  var close = document.getElementsByClassName("close");
-var i;
-for (i = 0; i < close.length; i++) {
-  close[i].onclick = function() {
-    var div = this.parentElement;
-    div.style.display = "none";
-  }
-}
-
-
-
-  var list = document.querySelector('ul');
-  list.addEventListener('click', function(ev) {
-    if (ev.target.tagName === 'LI') {
-      ev.target.classList.toggle('checked');
-    }
-  }, false);
-
-
-    function newElement(){
-      var li =
-      document.createElement("li");
-        var inputValue= document.getElementbyId("inputin").value;
-        var t = document.createText(inputValue);
-          li.appendChild(t);
-          if(inputValue === ''){
-            alert("You must have some things to complete.");
-          }
-          else{
-            document.getElementbyId("tasklist").appendChild(li);
-          }
-          document.getElementById('inputin').value ="";
-    }
-
-
-    var span = document.createElement("SPAN");
-      var txt = document.createTextNode("\u00D7");
-      span.className = "close";
-      span.appendChild(txt);
-      li.appendChild(span);
-
-      for (i = 0; i < close.length; i++) {
-        close[i].onclick = function() {
-          var div = this.parentElement;
-          div.style.display = "none";
-
-      }
-    }
-
+    
 </script>
-
+</head>
 <body>
+  <title>Project 2 : To Do List</title>
   <h2> My Task List</h2>
-  <div id="mylist" class= "header">
     <ul id="tasklist">
     </ul>
     <form id="newtask">
       <input type ="text" id ="inputin" placeholder="What are you doing today...">
-      <span onclick = "newElement()" class= "submitbutton">Submit</span>
-      </div>
-      <!--<input id=" task type="text" >-->
-    <!--  <input id="submit" type="submit" >-->
+      <input id ="submit" type="submit">
 
-      </form>
+</form>
 </body>
-  </head>
   </html>
