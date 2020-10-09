@@ -25,7 +25,20 @@
           element.parentElement.remove();
       }
     }
-
+    function newElement(){
+      var li =
+      document.createElement("li");
+        var inputValue= document.getElementbyId("input").value;
+        var t = document.createText(inputValue);
+          li.appendChild(t);
+          if(inputValue === ''){
+            alert("You must have some things to complete.");
+          }
+          else{
+            document.getElementbyId("tasklist").appendChild(li);
+          }
+          document.getElementById('input').value ="";
+    }
 
   )}
 </script>
