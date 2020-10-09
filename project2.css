@@ -1,6 +1,6 @@
 
 body {
-  background-color: #FF339C;
+  background-color: #ff339c;
   display: flex;
   justify-content: center;
 }
@@ -27,7 +27,7 @@ ul li.complete{
   text-decoration: line-through;
 }
 
-.button{
+button{
   padding: 15px
   width:20%
   background: #7B4E75;
