@@ -4,27 +4,26 @@
 <link rel="project2" href="project2.css"/>
 <script>
 
-    document.addEventListener('DOMContentLoader', function(){
+  
+  var close = document.getElementsByClassName("close");
+var i;
+for (i = 0; i < close.length; i++) {
+  close[i].onclick = function() {
+    var div = this.parentElement;
+    div.style.display = "none";
+  }
+}
 
-    document.querySelector("#newtask").onsubmit =function(){
-      const li = document.createElement('li');
 
-      let task_text = document.querySelector('#task').value;
-       let new_task_html = `
-        <span> ${task_text}</span>
-        <button class= "remove"> Remove</button>
-       `;
-       li.innerHTML =new_task_html
-       document.querySelector("#tasklist").append(li);
-       document.querySelector(#"task").value ='';
-       return false;
+
+  var list = document.querySelector('ul');
+  list.addEventListener('click', function(ev) {
+    if (ev.target.tagName === 'LI') {
+      ev.target.classList.toggle('checked');
     }
-    document.addEventListener('click', function(event){
-      element =event.target;
-      if(element.className === 'remove'){
-          element.parentElement.remove();
-      }
-    }
+  }, false);
+
+
     function newElement(){
       var li =
       document.createElement("li");
@@ -39,7 +38,19 @@
           }
           document.getElementById('input').value ="";
     }
+    var span = document.createElement("SPAN");
+      var txt = document.createTextNode("\u00D7");
+      span.className = "close";
+      span.appendChild(txt);
+      li.appendChild(span);
 
+      for (i = 0; i < close.length; i++) {
+        close[i].onclick = function() {
+          var div = this.parentElement;
+          div.style.display = "none";
+        }
+      }
+    }
   )}
 </script>
 
