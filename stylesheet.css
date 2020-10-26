@@ -1,60 +1,83 @@
-#red-background{
-background-color:#eac3bb
+body {
+  margin: 0;
+  min-width: 250px;
+  background: #ffcccc;
+  color: #996633;
+  font-family: fantasy;
 }
-.centertable
+
+#title {
+   margin-top: 5px;
+   font-size: 50px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   text-align: center;
+}
+
+.container{
+  display: block;
+  width:40vw;
+  margin: 50 px auto;
+}
+
+li*
 {
-text-align:center;
+  float: left;
 }
 
-body{
-background-color:#fbd2ca;
+button {
+    background-color:#ffffff ;
+    border: none;
+    color: #e6ccb3;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+    margin: 5px;
+    font-size: 13px;
+    border-radius: 10%;
+}
+button:hover {
+    background:#d9b38c;
+    text-decoration: none;
+    cursor: pointer;
 }
 
-img{
-display:block;
-margin: auto;
-border-style: solid;
-border-color:#94584b;
-border-width: medium;
+#completed-tasks label {
+    text-decoration: line-through;
+    color: #888;
 }
 
-h3{
-color:#c70039;
-text-align:center;
-font-family:"Comic Sans MS"
+li {
+    overflow: hidden;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
 }
 
-p{
-color:#a16153;
-font-family:"Comic Sans MS"
+li>input[type="checkbox"] {
+    margin: 0 10px;
+    position: relative;
+    top: 15px;
 }
 
-ul{
-color:#a16153;
-font-family:"Comic Sans MS"
+li>label {
+    font-size: 18px;
+    line-height: 40px;
+    width: 237px;
+    padding: 0 0 0 11px;
+}
+
+li>input[type="text"] {
+    width: 226px;
+}
+
+li>.delete:hover {
+    color: #CF2323;
 }
 
 
-ol{
-color:#a16153;
-font-family:"Comic Sans MS"
-}
-
-hr{
-border-style: inset
-}
-
-table,th,tr
-{
-border-style:dotted;
-border-color:#94584b;
-}
-@media(){
-body{
-background-color:white;
-}
-}
-span{
-color:#a16153;
-font-family:"Comic Sans MS"
+#clear {
+    font-size: 15px;
+    float: right;
+    text-align: center;
 }
