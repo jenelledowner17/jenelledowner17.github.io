@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project3</title>
+</head>
+<body class="body">
+
+
+    <div id="intro">
+    <p class="label">Enter your name in text box</p>
+    <input id="user-name" placeholder="Name" type ="text"/>
+    <button id="start-button" onclick="quizSelection()">Let's Begin</button>
+    </div>
+</br>
+    <h1 id="your-name"></h1>
+    <div id="quiz_list" class="hide">
+        <p>Please select a quiz</p>:
+          <button  onclick="startQuiz1()">System's Analysis Quiz</button>
+          <button onclick="startQuiz2()">Data Analytics</button>
+
+    </div>
+    <div id="view_widget">
+    </div>
+   <!-- <div class="container">
+       <div id="start-quiz"class="hide">
+        <p class="card-text"></p>
+        <div id="answerbtn"></div>
+        <button class="btn1"></button>
+        <button class="btn2"></button>
+        <button class="btn3"></button>
+        </div>
+       </div>
+   </div> -->
+   <div id="scoreboard"></div>
+   <button id="submitquiz" class="hide">Submit</button>
+
+</body>
+
+<script id="quiz1_view" type="text/x-handlebars-template">
+    <div class="card-body">
+      <h4 class="card-title">System Analysis Quiz</h4>
+      <p class="card-text">{{questions}}</p>
+      <button class="btn btn-danger">Choice A </button>
+      <button class="btn btn-warning">Choice B </button>
+      <button class="btn btn-primary">Choice C </button>
+    </div>
+  </script>
+
+  <script id="quiz2_view" type="text/x-handlebars-template">
+    <div class="card-body">
+      <h4 class="card-title"> Data Analytics Quiz</h4>
+      <p class="card-text">{{questions}}</p>
+      <button class="btn btn-danger">Choice A </button>
+      <button class="btn btn-warning">Choice B </button>
+      <button class="btn btn-primary">Choice C </button>
+    </div>
+  </script>
