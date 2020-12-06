@@ -1,0 +1,41 @@
+{
+  "data":[{
+    "id":"1",
+    "employee_name": "Tiger Nixon",
+    "employee_salary": "320800",
+    "employee_age": "61",
+    "profile_image":""
+  }, {
+    "id":"2",
+    "employee_name": "Garrett Chandler",
+    "employee_salary": "320800",
+    "employee_age": "15",
+    "profile_image":""
+  },{
+    "id":"3",
+    "employee_name": "Ashton Nixon",
+    "employee_salary": "320800",
+    "employee_age": "20",
+    "profile_image":""
+  },{
+    "id":"4",
+    "employee_name": "Cedric Nixon",
+    "employee_salary": "320800",
+    "employee_age": "30",
+    "profile_image":""
+  },{
+    "id":"5",
+    "employee_name": "Airi Nixon",
+    "employee_salary": "320800",
+    "employee_age": "45",
+    "profile_image":""
+  },{
+    "id":"6",
+    "employee_name": "Tiger Nixon",
+    "employee_salary": "320800",
+    "employee_age": "5",
+    "profile_image":""
+  }
+
+  ]
+}
