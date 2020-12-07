@@ -30,8 +30,7 @@
     Security Systems (CSS). Here you wll be able to search the many different course
     options by course code, instructor and level. Use any of the options to display what you are looking for.
   </div>
-<div id="display_courses">
-  </div>
+
   <!-- Forms  -->
   <form onsubmit=return false; id="queryForm">
     <!-- Search by Code -->
@@ -61,17 +60,17 @@
   <input id ="queryCombined" type="button" onclick="updateView(this)" value="Submit" data-querytype="combined_query"class="btn btn-outline-danger">
 </form>
 <img src="https://upload.wikimedia.org/wikipedia/commons/3/36/StJohns-Crest-Small.png" alt="St.John's Crest">
+<div id="display">
 
+  </div>
   </body>
 </html>
 <script id="display_query_view" type="text/x-handlerbars-template">
-  <div class="container">
-    <ul class="query_list">
+
+    <ul>
       {{#each courses}}
-      <li>code: {{this.course_code}} | level: {{this.course_level}} | course name: {{this.title}} | instructor : {{this.instructor}}</li>
-
+      <li> code: {{this.course_code}} | level: {{this.course_level}} | course name: {{this.title}} | instructor : {{this.instructor}}</li>
+      {{/each}}
     </ul>
-
-  </div>
 
 </script>
